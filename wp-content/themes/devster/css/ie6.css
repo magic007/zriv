@@ -1,0 +1,46 @@
+/*----------------------------------------------------
+         Devster - CSS - Exclusively for IE6
+------------------------------------------------------*/
+
+
+.imgleft{float:left; padding-right:8px;}
+.imgright{float:right; padding-left:8px;}
+
+#head-top {width:960px; height:25px; border-bottom:1px solid #71736b; padding-bottom:0px; margin:12px 0px 12px 0px; float:left;}
+#head-top-inner {width:630px; height:25px; margin:14px 0px 10px 0px; padding-bottom:0px; float:left; border-bottom:1px solid #71736b;}
+#head-title-inner h2 {width:630px; margin-bottom:2px; float:left;}
+
+/* Portfolio */
+.portfolio-item-thumb {width:300px; float:left; margin:0px 25px 20px 0px; color:#414141; line-height:18px; position: relative; height: 250px;}
+
+/* Front Page Slider */
+#slider{ position:relative;  margin:45px 0px 0px 95px; width:301px; padding:0px 0px 0px 0px; float:left;}
+
+#main_container{height:100%;}
+#main_container_inner{height:100%;}
+#content1{float:left; width:300px;}
+#content2{float:left; width:300px; margin-left:28px;}
+#content3{float:left; width:300px; margin-left:28px;}
+#content-right {float:left; width:300px; margin:20px 0px 0px 28px;}
+
+/* Top Navigation bar menu styling */
+#nav li{
+	list-style:none;
+	float:left;
+	text-align:center;
+	padding:0;
+	font:normal 14px Tahoma;	
+	color:#ffffff;
+	background:url(../images/nav-divider.gif) no-repeat 100% 3px;
+}
+#nav li a {
+	z-index: 10;
+	display: block;
+	float: left;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+	margin: auto 10px;
+	color:#ffffff;
+	text-decoration:none;	
+}

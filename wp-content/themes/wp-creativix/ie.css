@@ -1,0 +1,15 @@
+	
+.navigation {
+float: left;
+margin-top: -50px;
+}
+
+#searchbutton {
+background: url(images/search_btn.gif) no-repeat;
+width: 27px;
+height: 28px;
+border: none;
+position: relative;
+top: -5px;
+left: -12px;
+}

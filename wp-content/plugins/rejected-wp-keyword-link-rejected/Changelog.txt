@@ -1,0 +1,80 @@
+wp keyword link开发日志:
+
+You can decided for each link if you would like to: 
+
+* Add a "No Follow" 
+* Match only on the first mention
+* Open a new window on clicking the link
+* Match any case (ignore case) in the keyword
+* Apply the link also to your posts comment section
+* Now it also work for Chinese Keyword.
+* Multi-language support
+* <strong>Auto change Post tags to Keyword (New)</strong>, You can choose turn on or turn off.
+
+
+* 完美支持中文关键词链接,分别区分英文与中文关键词
+* 对每个关键词进行细节设置(如: 是否匹配多个? 是否匹配评论? 外链还是内链? 是否匹分大小写? 是否新窗口打开等)
+* 修正编辑中文关键词时乱码问题 
+* 解决替换关键词已有链接的问题.文章中已有的链接将不会匹配.
+* 解决与WordPress Wiki插件的冲突问题。
+* 加入多语言支持。
+* <strong>自动把文章的标签转换为关键词(新)</strong>。 你可以选择开启或关闭.
+
+
+V1.5.2
+
+* 修复document.getElementById为空的BUG
+* 修复 中英文组合词 不能自动添加链接的BUG
+
+V1.5.0
+
+* displays a list of posts similar
+* 显示相关文章
+* Similarity plugin( http://www.davidjmiller.org/2008/similarity/ )
+
+V1.4.0
+
+* Global options for keyword link
+* Number of Keyword matched
+* Keywords does not link itself
+* Ignore pre label
+* Keywords does not link on Page
+* Batch delete
+* Optimization Import and Export
+
+
+V1.4.0
+
+* 大更新
+* 关键词匹配的数量
+* 关键词本身不自链
+* 跳过pre标签
+* 在Page页里不链接
+* 批量删除
+* 优化导入功能
+
+
+v 1.3.2
+
+* 跳过<code><pre>..</pre></code>区域，避免与代码亮亮插件的冲突。
+* 跳过自定义的标签<code><wp_nokeywordlink>..</wp_nokeywordlink></code>区域，避免与代码亮亮插件的冲突。
+* 关键词本身不自链。
+
+* Escape <code><pre>..</pre></code>.
+* Escape <code><wp_nokeywordlink>..</wp_nokeywordlink></code>.
+* Keywords itself is not self-chain
+
+
+v 1.2.5
+
+* 优化关键词的Description
+* 加入记忆功能, 记住最后一次添加关键词时的选项作为下一次的默认选项。
+
+* optimize the keyword "description"
+* the idea is, remember last option you chose when add a new keyword, as next default option.(remember-function)
+
+<strong>Supported Languages:</strong>
+
+* US English/en_US (default, Thanks <a href="http://www.dijksterhuis.org">Martijn</a>) 
+* 简体中文/zh_CN (translate by <a href="http://liucheng.name/">Lc.</a>) 
+* German/de_DE (translate by <a href="http://www.nemoco.de/">iNovek</a>) 

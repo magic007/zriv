@@ -1,0 +1,73 @@
+/* ###  MnM Spider Tracker  ### */
+
+/* Heat Bar Class CSS */
+
+.heat_bar {
+    font-size:11px;
+    color:#777;
+    background:#ddd url('../../../wp-content/plugins/spider-tracker/images/bg_gray.jpg') left top repeat-x;
+    height:15px;
+    position:relative;
+}
+
+.heat_bar .text {
+    text-align:center;
+}
+
+.heat_bar .color {
+    position:absolute;
+    top:0;
+    left:0;
+    height:15px;
+    width:0;
+    z-index:1;
+}
+
+.heat_bar .red {
+    background:#CB001D url('../../../wp-content/plugins/spider-tracker/images/bg_red.jpg') left top repeat-x;
+}
+
+.heat_bar .yellow {
+    background:#CEB900 url('../../../wp-content/plugins/spider-tracker/images/bg_yellow.jpg') left top repeat-x;
+}
+
+.heat_bar .green {
+    background:#9BEEAA url('../../../wp-content/plugins/spider-tracker/images/bg_green.jpg') left top repeat-x;
+}
+
+.heat_bar .blue {
+    background:#78B1E0 url('../../../wp-content/plugins/spider-tracker/images/bg_blue.jpg') left top repeat-x;
+}
+
+.heat_bar .end_left {
+    background:#999999 url('../../../wp-content/plugins/spider-tracker/images/end.jpg') no-repeat scroll left top;
+    height:15px;
+    left:0;
+    position:absolute;
+    top:0;
+    width:1px;
+    z-index:100;
+}
+.heat_bar .end_right {
+    background:#999999 url('../../../wp-content/plugins/spider-tracker/images/end.jpg') no-repeat scroll left top;
+    height:15px;
+    position:absolute;
+    right:0;
+    top:0;
+    width:1px;
+    z-index:100;
+}
+
+.heat_bar .text_left {
+    left:3px;
+    position:absolute;
+    top:1px;
+    z-index:50;
+}
+
+.heat_bar .text_right {
+    position:absolute;
+    right:3px;
+    top:1px;
+    z-index:50;
+}
